@@ -19,10 +19,36 @@ body {
   margin-bottom: 16px;
 }
 
+ul,
+ol {
+  list-style-type: none;
+}
 body {
   background-color: grey;
 }
 
 input {
   border-radius: 6px;
+}
+
+.country-img {
+  margin-right: 15px;
+}
+
+.country-item {
+  display: flex;
+  align-items: center;
+}
+
+.country-text {
+  font-size: 20px;
+}
+
+.country-info {
+  font-size: 26px;
+  font-weight: 900;
+}
+
+.country-span {
+  font-weight: 400;
 }
