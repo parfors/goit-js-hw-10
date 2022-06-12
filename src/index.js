@@ -31,7 +31,9 @@ function inputHandler(e) {
           renderCountry(data);
         }
       })
-      .catch(Notify.failure('Oops, there is no country with that name'));
+      .catch(error =>
+        Notify.failure('Oops, there is no country with that name')
+      );
   } else {
     refs.ul.innerHTML = '';
     refs.div.innerHTML = '';
